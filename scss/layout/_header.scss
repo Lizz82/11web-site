@@ -1,0 +1,16 @@
+.header {
+  box-sizing: border-box;
+  color: $color_white;
+  flex-direction: column;
+  top: 80px;
+
+  &__title {
+    font-size: 5rem;
+    letter-spacing: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    color: rgba($color_white, 0.2);
+
+    @extend %flex-center;
+  }
+}
