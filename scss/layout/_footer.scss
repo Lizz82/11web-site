@@ -6,22 +6,23 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  z-index: 97;
 }
 
 .footer-container {
-  background-color: #396c54;
+  background-color: $color_auxiliary--dark;
   padding: 4rem 0rem 4rem 0rem;
   display: flex;
   justify-content: space-between;
-
-
+  position: absolute;
+  width: 100%;
 }
 
 .footerbox1 {
-  color: beige;
+  color: $color_auxiliary--light;
   width: 80%;
   height: 20vh;
-  background-color: #396c54;
+  background-color: $color_auxiliary--dark;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -29,10 +30,10 @@
 }
 
 .footerbox2 {
-  color: beige;
+  color: $color_auxiliary--light;
   width: 80%;
   height: 15vh;
-  background-color: #396c54;
+  background-color: $color_auxiliary--dark;
   display: flex;
   justify-content: flex-end;
   margin: 0 auto;
@@ -41,7 +42,7 @@
 
 
 .footer-heading a {
-  color: beige;
+  color: $color_auxiliary--light;
   text-decoration: none;
   margin-bottom: 0.5rem;
 }
