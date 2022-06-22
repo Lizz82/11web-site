@@ -1304,7 +1304,7 @@ img {
       -ms-flex-align: start;
           align-items: flex-start;
   background: linear-gradient(105deg, #2e4051 50%, transparent 50%) center center/0% 100%, url("/images/iamge01__knowledge.jpg") right center/auto 100%;
-  background-size: auto;
+  background-size: contain;
 }
 
 .bannertitle__knowledge {
