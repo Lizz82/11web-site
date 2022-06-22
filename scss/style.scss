@@ -4,10 +4,18 @@
 
 @import 'mixin/flex-element';
 @import 'mixin/content';
+@import 'mixin/RWD';
 @import 'layout/main';
 @import 'layout/navbar';
 @import 'layout/accordion';
 @import 'layout/body';
 @import 'layout/footer';
-@import 'layout/header';
+
 @import 'layout/course';
+@import 'layout/banner';
+@import 'components/card';
+@import 'components/button';
+@import 'components/slide';
+@import 'layout/carousel';
+@import 'layout/section';
+@import 'layout/header';

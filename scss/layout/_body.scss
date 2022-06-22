@@ -24,3 +24,35 @@ h2 {
 h3 {
   font-size: 24px;
 }
+
+
+// news
+.body-1 {
+  height: 100%;
+  color: rgb(213, 213, 213);
+  background: rgba(241, 241, 241, 0.819);
+  background-repeat: no-repeat;
+  letter-spacing: 2px;
+  font-family: 'Exo', sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
+  line-height: 1.5;
+  background-color: $color_text-colorwhite;
+}
+
+// about
+.body-2 {
+  height: 100%;
+  color: rgb(213, 213, 213);
+  background: rgba(241, 241, 241, 0.819);
+  background-repeat: no-repeat;
+  letter-spacing: 2px;
+  font-family: 'Exo', sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
+  line-height: 1.5;
+  background: linear-gradient(to bottom, #51A8DD,#214c77, #000612);
+}
+
+// index
+.body-3 {
+  background: linear-gradient(to bottom, #f5f5dc, #006284, #000612);
+}

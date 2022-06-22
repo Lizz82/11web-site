@@ -1,19 +1,18 @@
 .accordion-wrap {
   box-sizing: border-box;
   width: 100%;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   // align-items: center;
 
-  min-height: 70vh;
+  min-height: 100vh;
 
   padding: #{$height_navbar+20px}
 }
 
 a {
-  color: #fff;
+  color: $color_auxiliary--light;
   text-decoration: none;
 
   &:hover {

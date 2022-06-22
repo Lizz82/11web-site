@@ -83,10 +83,49 @@ $contentFadeinAT: 0.5s;
     cursor: pointer;
   }
 
-  &__overflow {
+  &__overflow1 {
+    overflow: visible;
+    position: relative;
+    height: 100%;
+    background-image: url(/images/img-diving01.jpg);
+    background-size: cover;
+    background-position: center top;
+  }
+
+  &__overflow2 {
     overflow: hidden;
     position: relative;
     height: 100%;
+    background-image: url(/images/img-diving06.jpg);
+    background-size: cover;
+    background-position: center center;
+  }
+
+  &__overflow3 {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    background-image: url(/images/img-diving02.jpg);
+    background-size: cover;
+    background-position: center center;
+  }
+
+  &__overflow4 {
+    overflow: visible;
+    position: relative;
+    height: 100%;
+    background-image: url(/images/img-group06.jpg);
+    background-size: cover;
+    background-position: center center;
+  }
+
+  &__overflow5 {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    background-image: url(/images/img-group05.jpg);
+    background-size: cover;
+    background-position: center center;
   }
 
   &__inner {
@@ -179,62 +218,8 @@ $contentFadeinAT: 0.5s;
     font-size: 18px;
   }
 
-  &__content1 {
+  &__content {
     @extend %content;
-    background-image: url(/images/img-diving01.jpg);
-    background-size: cover;
-
-    @include elActive {
-      z-index: 2;
-      opacity: 1;
-      pointer-events: auto;
-      transition: all $contentFadeinAT $fullExpandAT;
-    }
-  }
-
-  &__content2 {
-    @extend %content;
-    background-image: url(/images/img-diving06.jpg);
-    background-size: cover;
-
-    @include elActive {
-      z-index: 2;
-      opacity: 1;
-      pointer-events: auto;
-      transition: all $contentFadeinAT $fullExpandAT;
-    }
-  }
-
-  &__content3 {
-    @extend %content;
-    background-image: url(/images/img-diving02.jpg);
-    background-size: cover;
-
-    @include elActive {
-      z-index: 2;
-      opacity: 1;
-      pointer-events: auto;
-      transition: all $contentFadeinAT $fullExpandAT;
-    }
-  }
-
-  &__content4 {
-    @extend %content;
-    background-image: url(/images/img-group06.jpg);
-    background-size: cover;
-
-    @include elActive {
-      z-index: 2;
-      opacity: 1;
-      pointer-events: auto;
-      transition: all $contentFadeinAT $fullExpandAT;
-    }
-  }
-
-  &__content5 {
-    @extend %content;
-    background-image: url(/images/img-group05.jpg);
-    background-size: cover;
 
     @include elActive {
       z-index: 2;
@@ -318,7 +303,7 @@ $contentFadeinAT: 0.5s;
     min-height: 250px;
     text-align: center;
     font-size: 100vw / $numOfEls;
-    line-height: 0.85;
+    line-height: 1;
     font-weight: bold;
     transition: transform $indexHoverAT, opacity $moveAT/2 $expandAT + $expandDelay + $moveAT;
     transform: translate3d(0, 1vw, 0);

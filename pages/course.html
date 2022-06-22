@@ -12,10 +12,11 @@
       integrity="sha384-eoTu3+HydHRBIjnCVwsFyCpUDZHZSFKEJD0mc3ZqSBSb6YhZzRHeiomAUWCstIWo"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
 
   <body>
+    <!-- navbar start -->
     <input id="nav-toggle" type="checkbox" />
     <label for="nav-toggle" class="ham">
       <div class="ham-origin">
@@ -28,28 +29,34 @@
     <nav class="menu">
       <ul class="menu-list">
         <li class="menu-item">
-          <a class="menu-link" href="#">關於我們</a>
+          <a class="menu-img" href="/index.html">
+            <img src="/images/Aquaholic.svg" width="260" height="100"
+          /></a>
         </li>
         <li class="menu-item">
-          <a class="menu-link" href="#">最新消息</a>
+          <a class="menu-link" href="/pages/about.html">關於我們</a>
         </li>
         <li class="menu-item">
-          <a class="menu-link" href="#">課程介紹</a>
+          <a class="menu-link" href="/pages/news.html">最新消息</a>
         </li>
         <li class="menu-item">
-          <a class="menu-link" href="#">潛水知識</a>
+          <a class="menu-link" href="/pages/course.html">課程介紹</a>
         </li>
         <li class="menu-item">
-          <a class="menu-link" href="#">潛水旅遊</a>
+          <a class="menu-link" href="/pages/knowledge.html">潛水知識</a>
         </li>
         <li class="menu-item">
-          <a class="menu-link" href="#">聯絡我們</a>
+          <a class="menu-link" href="/pages/travel.html">潛水旅遊</a>
         </li>
         <li class="menu-item">
-          <a class="menu-link" href="#">FAQ</a>
+          <a class="menu-link" href="https://reurl.cc/an80vY">聯絡我們</a>
+        </li>
+        <li class="menu-item">
+          <a class="menu-link" href="/pages/faqs.html">FAQ</a>
         </li>
       </ul>
     </nav>
+    <!-- navbar end -->
 
     <main>
       <div class="cont s--inactive">
@@ -57,14 +64,13 @@
         <div class="cont__inner">
           <!-- el start -->
           <div class="el">
-            <div class="el__overflow">
+            <div class="el__overflow1">
               <div class="el__inner">
                 <div class="el__bg"></div>
                 <div class="el__preview-cont">
-                  <img src="images/img-diving01.jpg" />
                   <h2 class="el__heading">AIDA 1</h2>
                 </div>
-                <div class="el__content1">
+                <div class="el__content">
                   <div class="el__text">
                     <h2>AIDA 1</h2>
                     <p>最基礎的自由潛水課程，適合從來沒有接觸過自由潛水的你</p>
@@ -83,14 +89,13 @@
           <!-- el end -->
           <!-- el start -->
           <div class="el">
-            <div class="el__overflow">
+            <div class="el__overflow2">
               <div class="el__inner">
                 <div class="el__bg"></div>
                 <div class="el__preview-cont">
-                  <img src="images/img-diving06.jpg" />
                   <h2 class="el__heading">AIDA 2</h2>
                 </div>
-                <div class="el__content2">
+                <div class="el__content">
                   <div class="el__text">
                     <h2>AIDA 2</h2>
                     <p>
@@ -112,14 +117,13 @@
           <!-- el end -->
           <!-- el start -->
           <div class="el">
-            <div class="el__overflow">
+            <div class="el__overflow3">
               <div class="el__inner">
                 <div class="el__bg"></div>
                 <div class="el__preview-cont">
-                  <img src="images/img-diving02.jpg" />
                   <h2 class="el__heading">AIDA 3</h2>
                 </div>
-                <div class="el__content3">
+                <div class="el__content">
                   <div class="el__text">
                     <h2>AIDA 3</h2>
                     <p>
@@ -140,14 +144,13 @@
           <!-- el end -->
           <!-- el start -->
           <div class="el">
-            <div class="el__overflow">
+            <div class="el__overflow4">
               <div class="el__inner">
                 <div class="el__bg"></div>
                 <div class="el__preview-cont">
-                  <img src="images/img-group06.jpg" />
                   <h2 class="el__heading">綠島體驗</h2>
                 </div>
-                <div class="el__content4">
+                <div class="el__content">
                   <div class="el__text">
                     <h2>綠島體驗</h2>
                   </div>
@@ -165,14 +168,13 @@
           <!-- el end -->
           <!-- el start -->
           <div class="el">
-            <div class="el__overflow">
+            <div class="el__overflow5">
               <div class="el__inner">
                 <div class="el__bg"></div>
                 <div class="el__preview-cont">
-                  <img src="images/img-group05.jpg" />
                   <h2 class="el__heading">導潛</h2>
                 </div>
-                <div class="el__content5">
+                <div class="el__content">
                   <div class="el__text">
                     <h2>導潛與訓練潛</h2>
                     <p>
@@ -197,25 +199,26 @@
       </div>
     </main>
 
+    <!-- footer start -->
     <div class="footer-container">
       <footer class="footerbox1">
         <div class="footer-heading footer-1">
-          <img src="images/Aquaholic.svg" alt="" width="180" height="70" />
+          <img src="/images/Aquaholic.svg" alt="" width="180" height="70" />
 
           <span>© aqua holic 2022</span>
         </div>
 
         <div class="footer-heading footer-2">
-          <a href="#">關於我們</a>
-          <a href="#">最新消息</a>
-          <a href="#">課程介紹</a>
-          <a href="#">潛水知識</a>
+          <a href="/pages/about.html">關於我們</a>
+          <a href="/pages/news.html">最新消息</a>
+          <a href="/pages/course.html">課程介紹</a>
+          <a href="/pages/knowledge.html">潛水知識</a>
         </div>
 
         <div class="footer-heading footer-3">
-          <a href="#">潛水旅遊</a>
-          <a href="#">聯絡我們</a>
-          <a href="#">FAQ</a>
+          <a href="/pages/travel.html">潛水旅遊</a>
+          <a href="https://reurl.cc/an80vY">聯絡我們</a>
+          <a href="/pages/faqs.html">FAQ</a>
         </div>
       </footer>
 
@@ -234,6 +237,7 @@
         </div>
       </footer>
     </div>
+    <!-- footer end -->
 
     <script>
       var $cont = document.querySelector('.cont');
